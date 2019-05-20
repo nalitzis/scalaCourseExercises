@@ -75,3 +75,9 @@ println(mapFun(words, (a : String) => a.length))
 
 def lengthFun[T](xs: List[T]): Int = (xs foldRight 0)((_, el) => el + 1)
 println(lengthFun(words))
+
+val add = letters ++ words
+println(add)
+
+
+
